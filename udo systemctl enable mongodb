@@ -1,0 +1,10 @@
+[0;1;32m●[0m mongodb.service - High-performance, schema-free document-oriented database
+   Loaded: loaded (/etc/systemd/system/mongodb.service; disabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Tue 2020-03-03 13:41:46 -03; 5s ago
+ Main PID: 4392 (mongod)
+    Tasks: 28 (limit: 4915)
+   Memory: 177.6M
+   CGroup: /system.slice/mongodb.service
+           └─4392 /usr/bin/mongod --quiet --config /etc/mongod.conf
+
+mar 03 13:41:46 renan-desktop systemd[1]: Started High-performance, schema-free document-oriented database.
